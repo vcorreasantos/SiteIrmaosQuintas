@@ -1,8 +1,6 @@
 🚗 Centro Automotivo Irmãos Quintas - One Page
 
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 Este projeto consiste no desenvolvimento de uma landing page one-page para o Centro Automotivo Irmãos Quintas,
 com o objetivo de melhorar a presença digital da oficina e facilitar o acesso dos clientes às informações e serviços oferecidos.
@@ -12,8 +10,8 @@ com o objetivo de melhorar a presença digital da oficina e facilitar o acesso d
 Criar uma página moderna, acessível e responsiva que aumente a visibilidade da oficina e melhore a experiência do usuário.
 
 🛠️ Tecnologias utilizadas
-HTML5
-CSS3
+HTML5 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+CSS3 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 Responsividade para dispositivos móveis
 
 📱 Funcionalidades
@@ -32,6 +30,7 @@ Melhorar a presença online do negócio
 📌 Status do projeto
 
 Em desenvolvimento 🚧
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 
 👩‍💻 Desenvolvido por
 

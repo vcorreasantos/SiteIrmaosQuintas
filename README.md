@@ -33,5 +33,4 @@ Em desenvolvimento 🚧
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
 👩‍💻 Desenvolvido por
-
-Vih
+Vitória Cristina Corrêa dos Santos

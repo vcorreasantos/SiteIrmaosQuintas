@@ -10,8 +10,8 @@ com o objetivo de melhorar a presença digital da oficina e facilitar o acesso d
 Criar uma página moderna, acessível e responsiva que aumente a visibilidade da oficina e melhore a experiência do usuário.
 
 🛠️ Tecnologias utilizadas
-HTML5 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-CSS3 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 Responsividade para dispositivos móveis
 
 📱 Funcionalidades
@@ -30,7 +30,7 @@ Melhorar a presença online do negócio
 📌 Status do projeto
 
 Em desenvolvimento 🚧
-![Status](https://img.shields.io/badge/status-concluído-brightgreen)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
 👩‍💻 Desenvolvido por
 

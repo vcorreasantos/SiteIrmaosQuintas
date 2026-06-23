@@ -10,16 +10,16 @@ com o objetivo de melhorar a presença digital da oficina e facilitar o acesso d
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 Responsividade para dispositivos móveis
 
-### Foco do projeto
+# Foco do projeto
 Acessibilidade
 Usabilidade
 Design limpo e intuitivo
 Melhorar a presença online do negócio
 
-### Status do projeto
+# Status do projeto
 
 Em desenvolvimento 🚧
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-## Desenvolvido por
+# Desenvolvido por
 Vitória Cristina Corrêa dos Santos

@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f7fb;
+    color: #1b1b1b;
+}
+
+/* 🔝 NAVBAR */
+header {
+    background-color: #0b1f3a; /* azul escuro */
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #f5c400; /* amarelo */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    color: #f5c400; /* amarelo */
+}
+
+/* 🏠 HERO */
+.hero {
+    background: linear-gradient(135deg, #0b1f3a, #102c52);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+/* BOTÃO */
+.btn {
+    background-color: #f5c400; /* amarelo */
+    color: #0b1f3a;
+    padding: 12px 22px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #e0b800;
+}
+
+/* 👨‍🔧 SOBRE */
+.sobre {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.sobre p {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+/* 🔧 SERVIÇOS */
+.servicos {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #f1f5fb;
+    padding: 20px;
+    width: 180px;
+    border-radius: 10px;
+    border-top: 3px solid #f5c400;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background-color: #e8effa;
+}
+
+.contato {
+    padding: 60px 20px;
+    background-color: #0b1f3a;
+    color: white;
+}
+
+/* 📦 divide mapa e texto */
+.contato-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* 🗺️ MAPA */
+.mapa {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 3px solid #f5c400;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 320px;
+    border: 0;
+}
+
+/* 📞 LADO DIREITO */
+.info-contato {
+    flex: 1;
+    min-width: 250px;
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* título */
+.info-contato h3 {
+    color: #f5c400;
+    margin-bottom: 10px;
+}
+
+/* cada bloco (um embaixo do outro) */
+.item-contato span {
+    font-weight: bold;
+    color: #f5c400;
+    display: block;
+}
+
+.item-contato p {
+    margin-top: 3px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #081627;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* 📱 RESPONSIVIDADE */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 1.6rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
